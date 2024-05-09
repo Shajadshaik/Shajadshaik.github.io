@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shajad Shaik - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #141414;
+      color: #fff;
+    }
+    header {
+      background-color: #2ecc71;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 5px;
+    }
+    nav {
+      background-color: #27ae60;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #2ecc71;
+    }
+    section {
+      padding: 50px 20px;
+    }
+    .card {
+      background-color: #1f1f1f;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+    .card h2 {
+      color: #2ecc71;
+      margin-top: 0;
+      font-size: 2rem;
+    }
+    .card p {
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+    .card ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .card ul li {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+    .card a {
+      color: #2ecc71;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background-color: #2ecc71;
+      padding: 20px 0;
+      text-align: center;
+    }
+    footer p {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .fadeInUp {
+      animation-name: fadeInUp;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="animated fadeInUp">
+    <h1>Shajad Shaik</h1>
+    <p>Full Stack Java Web Developer</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#participations">Participations</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+<section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Name: Shajad Shaik</p>
+      <p>Email: shajadshaik36@gmail.com</p>
+      <p>Location: Chittoor, Andhra Pradesh</p>
+      <a href="https://www.linkedin.com/in/shajad-shaik" target="_blank">LinkedIn</a><br>
+      <a href="tel:+917036053425">+91 7036053425</a>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="card">
+      <h2>Education</h2>
+      <p>B.Tech (2024)</p>
+      <p>Sri Venkateswara College of Engg. & Technology, Chittoor</p>
+      <p>Computer Science and Engineering - 7.56 CGPA</p>
+      <br>
+      <p>Diploma (2021)</p>
+      <p>S.V. Government Polytechnic, Tirupathi</p>
+      <p>Computer Science and Engineering - 80.5%</p>
+      <br>
+      <p>10th (2018)</p>
+      <p>Government High School, Irala</p>
+      <p>SSC - 9.7 CGPA</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="card">
+      <h2>Skills</h2>
+      <p>Frontend: HTML, CSS, React JS</p>
+      <p>Backend: Java, Spring Boot</p>
+      <p>Database: MySQL, PostgreSQL</p>
+      <br>
+      <h3>Additional Skills</h3>
+      <p>Shell Scripting</p>
+      <p>Web Development</p>
+      <br>
+      <h3>Tools</h3>
+      <p>VS Code</p>
+      <p>IntelliJ IDEA</p>
+      <br>
+      <h3>Operating Systems</h3>
+      <p>Windows</p>
+      <p>Kali Linux</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="card">
+      <h2>Projects</h2>
+      <h3>Finance Management System</h3>
+      <p>Full Stack application on Finance management which demonstrates how a loan application actually works.</p>
+      <p>Technology Stack: Spring Boot, React JS, PostgreSQL</p>
+      <br>
+      <h3>Hotel Reservation System</h3>
+      <p>Java Application on Hotel Reservation System which Implements CRUD (Create, Read, Update, Delete) Operations.</p>
+      <p>Technology Stack: Java, JDBC, MySQL</p>
+    </div>
+  </section>
+
+  <section id="participations">
+    <div class="card">
+      <h2>Participations</h2>
+      <ul>
+        <li>Participated in a hackathon held at SVCET, Chittoor in Dec 2022.</li>
+        <li>Participated in TATA Imagination Challenge organised by TATA in Sep 2023.</li>
+        <li>Participated in Code-a-thon organised by Cisco in July 2023.</li>
+      </ul>
+    </div>
+  </section>
+
+<section id="certifications">
+    <div class="card">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Java Programming certification from PrepInsta Prime.</li>
+        <li>Front-end Development from Meta in Coursera.</li>
+        <li>Cyber Security Essentials certification from Cisco Net Academy.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact Me</h2>
+      <p>Email: shajadshaik36@gmail.com</p>
+      <p>Location: Chittoor, Andhra Pradesh</p>
+      <a href="https://www.linkedin.com/in/shajad-shaik" target="_blank">LinkedIn</a><br>
+      <a href="tel:+917036053425">+91 7036053425</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Shajad Shaik</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        $(".fadeInUp").each(function(){
+          var position = $(this).offset().top;
+          var topWindow = $(window).scrollTop();
+          if (position < topWindow + 600) {
+            $(this).addClass("visible");
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
+
